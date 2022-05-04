@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  article-builder-postgres:
+    container_name: article-builder
+    image: postgres:13.6
+    environment:
+      POSTGRES_DB: "article-builder"
+      POSTGRES_USER: "articleBuilder"
+      POSTGRES_PASSWORD: "articleBuilder"
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+    - ./data/pet-postgres:/var/lib/postgresql/data
+    ports:
+    - "5432:5432"

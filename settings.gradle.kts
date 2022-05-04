@@ -1,1 +1,1 @@
-rootProject.name = "Pet_back"
+rootProject.name = "ArticleBuilder"

@@ -1,10 +1,10 @@
-package me.ivan.pet_back
+package me.ivan.articleBuilder
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class PetBackApplicationTests {
+class ArticleBuilderApplicationTests {
 
     @Test
     fun contextLoads() {

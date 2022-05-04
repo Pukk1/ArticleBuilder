@@ -1,0 +1,15 @@
+spring:
+  baseUrl: "http://localhost:8080"
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/article-builder
+    username: articleBuilder
+    password: articleBuilder
+
+  liquibase:
+    url: jdbc:postgresql://localhost:5432/article-builder
+    driver-class-name: org.postgresql.Driver
+    user: articleBuilder
+    password: articleBuilder
+    change-log: classpath:/db/changelog/db.changelog-master.xml

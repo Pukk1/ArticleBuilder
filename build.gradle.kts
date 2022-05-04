@@ -18,9 +18,15 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
+    providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
-    providedRuntime("org.springframework.boot:spring-boot-starter-tomcat")
+
+//    Data
+    implementation("org.liquibase:liquibase-core")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa")
+    implementation("org.postgresql:postgresql")
+
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 
