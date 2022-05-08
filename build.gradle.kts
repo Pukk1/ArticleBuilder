@@ -26,6 +26,11 @@ dependencies {
     implementation("org.liquibase:liquibase-core")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.postgresql:postgresql")
+    implementation("org.modelmapper:modelmapper:3.1.0")
+
+//    Security
+    implementation("org.springframework.boot:spring-boot-starter-security")
+
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }

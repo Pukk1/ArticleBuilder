@@ -1,6 +1,7 @@
 spring:
   baseUrl: "http://localhost:8080"
 
+
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/article-builder
