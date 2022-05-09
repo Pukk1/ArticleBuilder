@@ -15,5 +15,5 @@ class Article(
         joinColumns = [JoinColumn(name = "article_id")],
         inverseJoinColumns = [JoinColumn(name = "author_id")]
     )
-    lateinit var authors: MutableList<Author>
+    var authors: MutableList<Author> = mutableListOf()
 }

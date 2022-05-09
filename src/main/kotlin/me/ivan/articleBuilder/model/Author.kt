@@ -11,5 +11,5 @@ class Author(
     var archived: Boolean = false
 ) : BaseEntity<AuthorId>() {
     @ManyToMany(fetch = FetchType.EAGER, mappedBy = "authors")
-    lateinit var articles: MutableList<Article>
+    var articles: MutableList<Article> = mutableListOf()
 }

@@ -10,5 +10,5 @@ import javax.persistence.MappedSuperclass
 abstract class BaseEntity<T : Serializable> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    lateinit var id : T
+    var id : T? = null
 }

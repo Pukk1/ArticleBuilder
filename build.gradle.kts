@@ -29,7 +29,7 @@ dependencies {
     implementation("org.modelmapper:modelmapper:3.1.0")
 
 //    Security
-    implementation("org.springframework.boot:spring-boot-starter-security")
+//    implementation("org.springframework.boot:spring-boot-starter-security")
 
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
