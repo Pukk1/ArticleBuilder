@@ -14,3 +14,7 @@ spring:
     user: articleBuilder
     password: articleBuilder
     change-log: classpath:/db/changelog/db.changelog-master.xml
+
+  data:
+    rest:
+      base-path: /api

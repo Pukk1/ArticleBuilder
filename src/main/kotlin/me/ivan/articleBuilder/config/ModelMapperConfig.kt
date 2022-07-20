@@ -18,7 +18,7 @@ class ModelMapperConfig {
     fun modelMapper(): ModelMapper {
 
 //        adding mapping configs in further
-        configAuthorMapping()
+//        configAuthorMapping()
 
         return mapper
     }
